@@ -41,7 +41,7 @@ pip3 install -r requirements.txt
 python3 bot.py
 ```
 - Deploy on Heroku.
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)]
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 - Note: Bot is in beta stage. Maybe it throw some errors.
 
