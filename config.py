@@ -1,7 +1,7 @@
 import os
 
 class Config:
-  ENV = bool(os.environ.get('ENV', False))
+  ENV = bool(os.environ.get('ENV', True))
   if ENV:
     BOT_TOKEN = os.environ.get('BOT_TOKEN')
     APP_ID = os.environ.get('APP_ID')
