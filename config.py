@@ -3,10 +3,10 @@ import os
 class Config:
   ENV = bool(os.environ.get('ENV', True))
   if ENV:
-    BOT_TOKEN = os.environ.get('BOT_TOKEN')
-    APP_ID = os.environ.get('APP_ID')
-    API_HASH = os.environ.get('API_HASH')
-    DATABASE_URL = os.environ.get('DATABASE_URL')
+    BOT_TOKEN = os.environ.get('1952747155:AAFcI4oNzbt6HMMZsRDyFd5MzLyeEJz8Fxs')
+    APP_ID = os.environ.get('7421906')
+    API_HASH = os.environ.get('7593ccf02034e3b78fa8001b4d37be72')
+    DATABASE_URL = os.environ.get('postgres://ujdrgylljxytgg:a48d8e5e5302fcf1a3290de978b64a043155b6bb8ca71f01f97325e7732b4fe4@ec2-54-211-160-34.compute-1.amazonaws.com:5432/d7huook8g039op')
   else:
     BOT_TOKEN = '' # Get it from https://t.me/BotFather
     APP_ID = '' # Get it from my.telegram.org/apps
@@ -34,5 +34,5 @@ class Messages:
         
         "**Rules & Precautions**\n__1. Don't copy BIG Google Drive Files/Folders. It may hang the bot and your files maybe damaged.\n2. Send One request at a time unless bot will stop all processes.\n3. Don't send slow links @transload it first.\n4. Don't misuse, overload or abuse this free service.__",
         
-        "**Developed by @viperadnan**"
+        "**Developed by @Itx_Ghost**"
         ]
